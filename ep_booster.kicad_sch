@@ -1931,6 +1931,14 @@
 		(color 0 0 0 0)
 		(uuid "fc9d013f-af5f-4dbf-8e00-cc5a1e791d92")
 	)
+	(no_connect
+		(at 116.84 29.21)
+		(uuid "51ce2cd6-61a0-457f-9392-31d6740b499d")
+	)
+	(no_connect
+		(at 176.53 36.83)
+		(uuid "9ec29ccd-c1c6-4114-b7f2-ba2a39333e6e")
+	)
 	(wire
 		(pts
 			(xy 57.15 113.03) (xy 60.96 113.03)
@@ -2601,39 +2609,6 @@
 		)
 		(uuid "f87f47d6-ec58-4e28-bf33-0eb443f4d252")
 	)
-	(label "GAIN"
-		(at 85.09 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "034629c7-6557-43a2-834a-41fa54dacad4")
-	)
-	(label "BOOST"
-		(at 176.53 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52abb291-8327-4eaa-abd9-d5c4f1983dd7")
-	)
-	(label "BRIGHT"
-		(at 100.33 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "65b3da3b-46ad-4ea0-abc5-1d0c9dc884d4")
-	)
 	(label "OUT"
 		(at 34.29 107.95 0)
 		(fields_autoplaced yes)
@@ -2772,7 +2747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 56.642 62.23 90)
 			(effects
 				(font
@@ -2907,7 +2882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 123.952 38.1 90)
 			(effects
 				(font
@@ -2974,7 +2949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 162.56 53.848 90)
 			(effects
 				(font
@@ -3174,7 +3149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4"
 			(at 45.72 53.6448 0)
 			(effects
 				(font
@@ -3241,7 +3216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -3573,7 +3548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 111.76 46.228 90)
 			(effects
 				(font
@@ -3774,7 +3749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 141.732 58.42 90)
 			(effects
 				(font
@@ -3907,7 +3882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 68.58 114.808 90)
 			(effects
 				(font
@@ -3976,7 +3951,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 70.358 36.83 90)
 			(effects
 				(font
@@ -4314,7 +4289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4"
 			(at 126.6952 55.88 0)
 			(effects
 				(font
@@ -4864,7 +4839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 96.52 46.228 90)
 			(effects
 				(font
@@ -4931,7 +4906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 53.34 114.808 90)
 			(effects
 				(font
@@ -5066,7 +5041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 178.308 59.69 90)
 			(effects
 				(font
@@ -5133,7 +5108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 171.45 53.848 90)
 			(effects
 				(font
@@ -5202,7 +5177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 66.802 71.12 90)
 			(effects
 				(font
@@ -5468,7 +5443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 52.07 56.388 90)
 			(effects
 				(font
@@ -5603,7 +5578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 36.068 62.23 90)
 			(effects
 				(font
@@ -5672,7 +5647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 74.422 116.84 90)
 			(effects
 				(font
