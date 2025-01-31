@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP J201
-D JFET JFET N-Channel -40V 50mA 360mW 3.27mW
-K
-F https://www.interfet.com/jfet-datasheets/jfet-j201-j202-interfet.pdf
-$ENDCMP
-#
-#End Doc Library
