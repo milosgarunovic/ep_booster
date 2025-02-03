@@ -46,3 +46,12 @@ as a boost to get hotter signal out of the bass. This will consume more battery.
 I'll try to keep the footprint of the PCB less than the 9V battery size, the idea being that you can have 9V battery
 slots in the bass, where 1 is the battery itself and other is this in the shape of another battery. I'll probably have
 to create a 3D holder for it, but that should be easy once everything is working.
+
+---
+
+TODO:
+
+1. Add bypass switch that also disconnects the battery, so it's easy to bypass on low battery. This can even be soldered
+   to push/pull pot
+2. Add low battery indicator (but that can be separate circuit). This needs to be tested at how low voltage does the
+   audio signal degrade the circuit.
