@@ -30,7 +30,7 @@
 
 - [ ] Setup
     - [ ] Set grid
-    - [ ] Set design rules
+    - [ ] Set design rules (check manufacturer for constraints for minimum values)
     - [ ] Import footprints from schematic
 - [ ] Outline and constrains
     - [ ] Define size and shape (Edge.Cuts layer)

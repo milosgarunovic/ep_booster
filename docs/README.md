@@ -57,3 +57,5 @@ TODO:
    audio signal degrade the circuit.
 3. Add LED and current limiting resistor R15 to the schematic so it's complete, but it doesn't have to be on the board
 4. Add mounting holes for screws M3, one or two should be enough to keep it in place
+5. Make 3D case that should be the same size as battery, so positioning can be like two batteries one next to other, but
+   should keep in mind the switches and pot, they should be available for easy modification.
