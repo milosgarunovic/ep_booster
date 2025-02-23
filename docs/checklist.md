@@ -46,13 +46,13 @@
     - [x] Power
     - [x] Copper fills
     - [x] Everything else
-- [ ] Silkscreen
-    - [ ] Add text information
+- [ ] Silkscreen (F.Silkscreen and B.Silkscreen layers)
+    - [x] Add text information
     - [ ] Add graphics
-- [ ] Design rules check
-    - [ ] Run DRC
-    - [ ] Fix errors
-    - [ ] Repeat DRC
+- [x] Design rules check
+    - [x] Run DRC
+    - [x] Fix errors
+    - [x] Repeat DRC
 - [ ] Export & Manufacture
     - [ ] Create Gerber files
     - [ ] Verify Gerber files
