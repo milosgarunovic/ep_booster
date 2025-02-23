@@ -30,7 +30,7 @@
 
 - [x] Setup
     - [x] Set grid
-    - [ ] Set design rules (check manufacturer for constraints for minimum values)
+    - [x] Set design rules (check manufacturer for constraints for minimum values)
     - [x] Import footprints from schematic
 - [x] Outline and constrains
     - [x] Define size and shape (Edge.Cuts layer)
@@ -46,9 +46,9 @@
     - [x] Power
     - [x] Copper fills
     - [x] Everything else
-- [ ] Silkscreen (F.Silkscreen and B.Silkscreen layers)
-    - [x] Add text information
-    - [ ] Add graphics
+- [x] Silkscreen (F.Silkscreen and B.Silkscreen layers)
+    - [x] Add text information (reference designators, functionality text (boost, gain, bright...))
+    - [x] Add graphics (name, personal logo/name, version)
 - [x] Design rules check
     - [x] Run DRC
     - [x] Fix errors
