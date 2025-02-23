@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "EP Booster")
+		(date "2025-02-23")
+		(rev "1.0.0")
+		(company "Miloš Garunović")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -10374,7 +10380,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "B.SilkS")
 			(uuid "39d61255-684e-4a4a-b656-572bbf740f45")
 			(effects
@@ -10386,7 +10392,7 @@
 			)
 		)
 		(property "Value" "MMBF5457"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "2132add5-7fc0-43de-a8ce-8a788de5a6c7")
 			(effects
@@ -10398,7 +10404,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d01b20d8-6f37-4125-a666-c2bf8c2cce9c")
@@ -10411,7 +10417,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BF545A_BF545B_BF545C.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d94110c7-70dc-46ac-ba9c-bdd989ca560a")
@@ -10424,7 +10430,7 @@
 			)
 		)
 		(property "Description" "15mA Idss, 30V Vgs, N-Channel JFET, SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a3ddc9ef-2a19-4465-9667-4ae92f69f0af")
@@ -10584,7 +10590,7 @@
 			(uuid "6866b377-cec1-48fb-b61c-56201bf876d1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "610dfa4b-7cd0-4ae5-beb1-5d372eb879ac")
 			(effects
@@ -13108,6 +13114,39 @@
 		(layer "Edge.Cuts")
 		(uuid "9ef8ade2-07a7-4577-8e41-db01218ba5ef")
 	)
+	(gr_line
+		(start 216.6 103.2)
+		(end 216.6 129.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "261b35a1-7a30-4973-b5ba-611dcd095195")
+	)
+	(gr_rect
+		(start 171 103.2)
+		(end 219.2 129.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "8c563be5-e633-4922-b9db-092c95e25ff8")
+	)
+	(gr_text "9v battery (26x48.3mm or x45.6 without contacts)"
+		(at 174.6 117 0)
+		(layer "User.1")
+		(uuid "29983538-1f1f-49ec-ac33-7b428cfeea65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type aligned)
 		(layer "User.1")
@@ -14125,5 +14164,11 @@
 		(layer "B.Cu")
 		(net 18)
 		(uuid "f6a7a74d-15e6-49a2-93cb-b4cad260d2f9")
+	)
+	(group ""
+		(uuid "dfc47f78-e2df-4cc0-a459-0b0645c30295")
+		(members "261b35a1-7a30-4973-b5ba-611dcd095195" "29983538-1f1f-49ec-ac33-7b428cfeea65"
+			"8c563be5-e633-4922-b9db-092c95e25ff8"
+		)
 	)
 )

@@ -55,3 +55,5 @@ TODO:
    to push/pull pot
 2. Add low battery indicator (but that can be separate circuit). This needs to be tested at how low voltage does the
    audio signal degrade the circuit.
+3. Add LED and current limiting resistor R15 to the schematic so it's complete, but it doesn't have to be on the board
+4. Add mounting holes for screws M3, one or two should be enough to keep it in place
