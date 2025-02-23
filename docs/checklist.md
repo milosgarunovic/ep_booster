@@ -28,24 +28,24 @@
 
 ## Layout design
 
-- [ ] Setup
-    - [ ] Set grid
+- [x] Setup
+    - [x] Set grid
     - [ ] Set design rules (check manufacturer for constraints for minimum values)
-    - [ ] Import footprints from schematic
-- [ ] Outline and constrains
-    - [ ] Define size and shape (Edge.Cuts layer)
-    - [ ] Define mounting holes
-    - [ ] Define cutouts
-- [ ] Footprints
-    - [ ] Place components on board
-    - [ ] Arrange user interface components
-    - [ ] Arrange in functional blocks
-    - [ ] Complete placement
-- [ ] Route
-    - [ ] Critical traces
-    - [ ] Power
-    - [ ] Copper fills
-    - [ ] Everything else
+    - [x] Import footprints from schematic
+- [x] Outline and constrains
+    - [x] Define size and shape (Edge.Cuts layer)
+    - [x] Define mounting holes
+    - [x] Define cutouts
+- [x] Footprints
+    - [x] Place components on board
+    - [x] Arrange user interface components
+    - [x] Arrange in functional blocks
+    - [x] Complete placement
+- [x] Route
+    - [x] Critical traces
+    - [x] Power
+    - [x] Copper fills
+    - [x] Everything else
 - [ ] Silkscreen
     - [ ] Add text information
     - [ ] Add graphics
