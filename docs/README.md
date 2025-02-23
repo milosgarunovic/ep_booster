@@ -46,7 +46,7 @@ as a boost to get hotter signal out of the bass. This will consume more battery.
 ---
 
 I'll try to keep the footprint of the PCB less than the 9V battery size, the idea being that you can have two 9V battery
-slots in the bass, where 1 is the battery itself and other is this in the shape of another battery. I'll create a 3D 
+slots in the bass, where 1 is the battery itself and other is this in the shape of another battery. I'll create a 3D
 case for it, but that should be easy once everything is working.
 
 ---
@@ -60,3 +60,5 @@ TODO:
 3. Add LED and current limiting resistor R15 to the schematic so it's complete, but it doesn't have to be on the board
 4. Make 3D case that should be the same size as battery, so positioning can be like two batteries one next to other, but
    should keep in mind the switches and pot, they should be available for easy modification.
+5. Experiment with different capacitor values like the one from amp-fx, to see if there's anything better or is it maybe
+   per bass better
