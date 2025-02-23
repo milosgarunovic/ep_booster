@@ -2,6 +2,8 @@
 
 KiCad project for EP Booster
 
+![v1.0.0 image](ep_booster_v1_0_0.jpg)
+
 ---
 
 The idea with this project is to have it in one place, with some "standards" like to view everything in KiCad and export
