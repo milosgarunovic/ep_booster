@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "EP Booster")
-		(date "2025-02-23")
+		(date "2025-02-27")
 		(rev "1.0.0")
 		(company "Miloš Garunović")
 	)
@@ -3457,7 +3457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29d8fcae-16d4-4d69-b415-ccbdb429c758")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 151.384 50.038 0)
 			(effects
 				(font
@@ -3500,6 +3500,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "373e1872-a7d9-4d3a-a50e-cb3f3cba76d7")
 		)
@@ -3509,7 +3518,7 @@
 		(instances
 			(project "ep_booster"
 				(path "/fa0b5818-9ee4-4073-a6e2-e7b6ccd60214"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3723,7 +3732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48fe7d19-6873-49dd-9dea-8613d1bc07ee")
-		(property "Reference" "C108"
+		(property "Reference" "C2"
 			(at 102.362 120.65 0)
 			(effects
 				(font
@@ -3777,7 +3786,7 @@
 		(instances
 			(project "ep_booster"
 				(path "/fa0b5818-9ee4-4073-a6e2-e7b6ccd60214"
-					(reference "C108")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4634,7 +4643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 126.6952 55.88 0)
 			(effects
 				(font
@@ -4653,6 +4662,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 125.73 52.07 0)
 			(effects
 				(font
