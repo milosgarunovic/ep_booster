@@ -33,7 +33,7 @@
     - [x] Set design rules (check manufacturer for constraints for minimum values)
     - [x] Import footprints from schematic
 - [x] Outline and constrains
-    - [x] Define size and shape (Edge.Cuts layer)
+    - [x] Define size and shape (Edge.Cuts layer), remember to round the edges at the end
     - [x] Define mounting holes
     - [x] Define cutouts
 - [x] Footprints
@@ -54,6 +54,7 @@
     - [x] Fix errors
     - [x] Repeat DRC
 - [ ] Export & Manufacture
+    - [ ] Update date of manufacturing variable (${MANUFACTURING_DATE})
     - [ ] Create Gerber files
     - [ ] Verify Gerber files
     - [ ] Upload Gerber files to manufacturer
