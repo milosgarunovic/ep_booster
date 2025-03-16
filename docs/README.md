@@ -2,7 +2,9 @@
 
 KiCad project for EP Booster
 
-![v1.0.0 image](ep_booster_v1_0_0.jpg)
+![v1.0.0 image](img1_v1_0_0.jpg)
+
+![v1.0.0 image](img2_v1_0_0.jpg)
 
 ---
 
@@ -51,6 +53,10 @@ case for it, but that should be easy once everything is working.
 
 ---
 
+[Here's more info about EP Booster Vintage mode.](ep_booster_info.md)
+
+---
+
 TODO:
 
 1. Add bypass switch that also disconnects the battery, so it's easy to bypass on low battery. This can even be soldered
@@ -62,3 +68,8 @@ TODO:
    should keep in mind the switches and pot, they should be available for easy modification.
 5. Experiment with different capacitor values like the one from amp-fx, to see if there's anything better or is it maybe
    per bass better
+6. Voltage doubler combined with EP booster for more headroom. Maybe put a switch there so you can choose if you want to
+   use 9 or 18v.
+7. PCB that can be put on a push/pull switch
+8. Thru hole option with 2N5457 and 2SC1815 (from [Xotic EP Booster](Xotic%20EP%20Booster.png),
+   [link](https://tagboardeffects.blogspot.com/2012/02/xotic-ep-booster-briggs-modded.html))
