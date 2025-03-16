@@ -1,6 +1,4 @@
-# ep_booster
-
-KiCad project for EP Booster
+# EP Booster
 
 ![v1.0.0 image](img1_v1_0_0.jpg)
 
@@ -8,8 +6,8 @@ KiCad project for EP Booster
 
 ---
 
-The idea with this project is to have it in one place, with some "standards" like to view everything in KiCad and export
-for manufacturing.
+The idea with this project is to have everything on one place, with some "standards" like to view everything in KiCad
+and export for manufacturing.
 
 As a bassist, I'm using EP Booster as always on pedal in vintage mode without a boost, and it gives a nice warmth to my
 custom bass with jazz pickups, and better thump with my Squier VM Precision with Wilde P-46 pickup.
@@ -28,8 +26,23 @@ measurements and write that here.
 If you want Vintage mode (like me) without a boost, use 10K resistor instead of the trim pot, and you can leave out male
 pin headers, this will make sure +3dB is off and vintage mode is on.
 
-I've made just the first board with that so I can test it, but my plan was to use it without boost and with vintage mode
-on so next ones I solder will be without those two components and I'll just put 10K resistor there.
+I've made just the first board with that, so I can test it, but my plan was to use it without boost and with vintage
+mode on so next ones I solder will be without those two components, and I'll just put 10K resistor there.
+
+Use two jumper connectors to connect pin headers for bright/boost.
+
+---
+
+## Decisions
+
+Why this board uses pin header connectors:
+
+1. It's cheaper than a switch
+2. Smaller footprint (in mm²), which is important in a board this compact
+3. The pedal will be used probably how you set it up once, so you won't change that
+
+The only benefit of a switch is that it's more practical, and you won't lose jumper shunt. But since I soldered it only
+on the first board, and I'm not planing to use that anyway, I won't solder it anymore.
 
 ---
 
@@ -52,14 +65,9 @@ changes to the schematic if necessary, but I don't need LED so if it does lower 
 find a workaround.
 
 Since I'll be using trimmer instead of potentiometer, it doesn't matter if it's audio/linear/log/reverse audio, I'm
-planning to keep it at lowest value anyway, so it works without a boost. But if a signal from bass is weak, it can serve
-as a boost to get hotter signal out of the bass. This will consume more battery.
-
----
-
-I'll try to keep the footprint of the PCB less than the 9V battery size, the idea being that you can have two 9V battery
-slots in the bass, where 1 is the battery itself and other is this in the shape of another battery. I'll create a 3D
-case for it, but that should be easy once everything is working.
+planning to keep the gain at the lowest value anyway (so highest value cap - 10kOhm), so it works without a boost. But
+if a signal from bass is weak, it can serve as a boost to get hotter signal out of the bass. This will consume more 
+battery.
 
 ---
 
@@ -81,5 +89,5 @@ TODO:
 6. Voltage doubler combined with EP booster for more headroom. Maybe put a switch there so you can choose if you want to
    use 9 or 18v.
 7. PCB that can be put on a push/pull switch
-8. Thru hole option with 2N5457 and 2SC1815 (from [Xotic EP Booster](Xotic%20EP%20Booster.png),
+8. Through hole option with 2N5457 and 2SC1815 (from [Xotic EP Booster](Xotic%20EP%20Booster.png),
    [link](https://tagboardeffects.blogspot.com/2012/02/xotic-ep-booster-briggs-modded.html))
