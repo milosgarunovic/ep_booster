@@ -23,6 +23,16 @@ measurements and write that here.
 
 ---
 
+## Usage
+
+If you want Vintage mode (like me) without a boost, use 10K resistor instead of the trim pot, and you can leave out male
+pin headers, this will make sure +3dB is off and vintage mode is on.
+
+I've made just the first board with that so I can test it, but my plan was to use it without boost and with vintage mode
+on so next ones I solder will be without those two components and I'll just put 10K resistor there.
+
+---
+
 Resources for the project:
 
 - https://aionfx.com/news/tracing-journal-xotic-ep-booster-v2/ (the pedal I've made is 100% based on this)
