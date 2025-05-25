@@ -66,7 +66,7 @@ find a workaround.
 
 Since I'll be using trimmer instead of potentiometer, it doesn't matter if it's audio/linear/log/reverse audio, I'm
 planning to keep the gain at the lowest value anyway (so highest value cap - 10kOhm), so it works without a boost. But
-if a signal from bass is weak, it can serve as a boost to get hotter signal out of the bass. This will consume more 
+if a signal from bass is weak, it can serve as a boost to get hotter signal out of the bass. This will consume more
 battery.
 
 ---
@@ -77,17 +77,21 @@ battery.
 
 TODO:
 
-1. Add bypass switch that also disconnects the battery, so it's easy to bypass on low battery. This can even be soldered
-   to push/pull pot
-2. Add low battery indicator (but that can be separate circuit). This needs to be tested at how low voltage does the
-   audio signal degrade the circuit.
+1. ✅ Make 3D case that should be the same size as battery, so positioning can be like two batteries one next to other,
+   but should keep in mind the switches and pot, they should be available for easy modification.
+2. Add bypass switch, so it's easy to bypass on low battery. This can even be soldered to push/pull pot
 3. Add LED and current limiting resistor R15 to the schematic so it's complete, but it doesn't have to be on the board
-4. Make 3D case that should be the same size as battery, so positioning can be like two batteries one next to other, but
-   should keep in mind the switches and pot, they should be available for easy modification.
-5. Experiment with different capacitor values like the one from amp-fx, to see if there's anything better or is it maybe
+4. Experiment with different capacitor values like the one from amp-fx, to see if there's anything better or is it maybe
    per bass better
-6. Voltage doubler combined with EP booster for more headroom. Maybe put a switch there so you can choose if you want to
+5. Voltage doubler combined with EP booster for more headroom. Maybe put a switch there so you can choose if you want to
    use 9 or 18v.
-7. PCB that can be put on a push/pull switch
-8. Through hole option with 2N5457 and 2SC1815 (from [Xotic EP Booster](Xotic%20EP%20Booster.png),
+6. test how much boost I get from every 1K resistence, or if there's like 16db boost, measure when I get every
+   -1 db so I can say for example I want exactly 10db boost. Also test with 18V battery since it has bigger headroom.
+   Test when I have +3db boost on as well, is it really 3db or what. Test db output in bypass and switched on without
+   any boost to see if there is in fact any boost because my ears say there is.
+7. New PCB that can be put on a push/pull switch, if it's possible for it to be that compact, I'm satisfied with battery
+   version
+8. New PCB with through hole components - 2N5457 and 2SC1815 (from [Xotic EP Booster](Xotic%20EP%20Booster.png),
    [link](https://tagboardeffects.blogspot.com/2012/02/xotic-ep-booster-briggs-modded.html))
+9. See if it's possible to make it work on a 3 way switch, with positions off, on without boost (10k resistor), on with
+   boost (some resistance, maybe that should stay on trim pot)
