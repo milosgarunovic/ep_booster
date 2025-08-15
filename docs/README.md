@@ -79,19 +79,28 @@ TODO:
 
 1. ✅ Make 3D case that should be the same size as battery, so positioning can be like two batteries one next to other,
    but should keep in mind the switches and pot, they should be available for easy modification.
-2. Add bypass switch, so it's easy to bypass on low battery. This can even be soldered to push/pull pot
+2. ✅ Add bypass switch, so it's easy to bypass on low battery. This can even be soldered to push/pull pot
 3. Add LED and current limiting resistor R15 to the schematic so it's complete, but it doesn't have to be on the board
 4. Experiment with different capacitor values like the one from amp-fx, to see if there's anything better or is it maybe
    per bass better
-5. Voltage doubler combined with EP booster for more headroom. Maybe put a switch there so you can choose if you want to
-   use 9 or 18v.
+5. ✅ Voltage doubler combined with EP booster for more headroom. Maybe put a switch there so you can choose if you want
+   to use 9 or 18v.
+   Schematic is made and I have it working, it produces 17.5v. I'll create a separate scheme for it, I don't think
+   there's a need to use 18v onboard. The sound is there and there's probably plenty of gain. I didn't measure that yet.
 6. test how much boost I get from every 1K resistence, or if there's like 16db boost, measure when I get every
    -1 db so I can say for example I want exactly 10db boost. Also test with 18V battery since it has bigger headroom.
    Test when I have +3db boost on as well, is it really 3db or what. Test db output in bypass and switched on without
    any boost to see if there is in fact any boost because my ears say there is.
-7. New PCB that can be put on a push/pull switch, if it's possible for it to be that compact, I'm satisfied with battery
-   version
-8. New PCB with through hole components - 2N5457 and 2SC1815 (from [Xotic EP Booster](Xotic%20EP%20Booster.png),
-   [link](https://tagboardeffects.blogspot.com/2012/02/xotic-ep-booster-briggs-modded.html))
-9. See if it's possible to make it work on a 3 way switch, with positions off, on without boost (10k resistor), on with
+7. See if it's possible to make it work on a 3 way switch, with positions off, on without boost (10k resistor), on with
    boost (some resistance, maybe that should stay on trim pot)
+8. Replace C2 from 47uF to 10uF. I've opened my EP Booster and checked for value of C7 (my C2) and saw that it wasn't
+   47uF but 12uF (10uF +- 20% tolerance). Why I noticed this is because images from aixon tracing show six of the same
+   caps and one different. The six are red ones from Jackcon (35V -40 to 105 degrees C, 5mm wide, 7.2mm high, 2.5mm
+   lead spacing). So I guess that's the only part to change and test if it works the same as original.
+
+---
+
+From tadyakits - worth experimenting for sound change
+
+The original bass and treble switches do not have noticeable effect. To remove more bass, reduce C3 capacitance (e.g.
+0.1 uF). To remove more treble, increase R7 resistance (e.g. 33k).
